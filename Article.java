@@ -3,15 +3,15 @@ package example.main;
 import java.util.Date;
 
 public class Article {
-	private int id;                // Unique ID of the article
-    private String title;          // Title of the article
-    private String description;    // Description of the article
-    private Date dateAdded;        // Date the article was added
+	private int id;               
+    private String title;         
+    private String description;    
+    private Date dateAdded;       
 
-    // Default constructor
+    
     public Article() {}
 
-    // Parameterized constructor
+    
     public Article(int id, String title, String description, Date dateAdded) {
         this.id = id;
         this.title = title;
@@ -19,7 +19,7 @@ public class Article {
         this.dateAdded = dateAdded;
     }
 
-    // Getters and Setters
+    
 
     public int getId() {
         return id;
