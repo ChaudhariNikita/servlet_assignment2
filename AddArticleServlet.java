@@ -10,9 +10,7 @@ import java.text.SimpleDateFormat;
 
 import example.main.Article;
 
-/**
- * Servlet implementation class AddArticle
- */
+
 @WebServlet(description = "adding article", urlPatterns = { "/AddArticle" })
 public class AddArticleServlet extends HttpServlet {
 	 private ArticleDao articleDAO = new ArticleDaoImplementation();
